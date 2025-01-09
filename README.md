@@ -1,4 +1,3 @@
-// README.md
 # Policy Document Generator
 
 A tool to automatically generate cookie and privacy policies for multiple clients.
