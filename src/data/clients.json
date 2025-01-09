@@ -1,0 +1,117 @@
+{
+  "clients": [
+    {
+      "domain": "svenssonsbygg.se",
+      "company_name": "Svenssons Bygg AB",
+      "org_number": "556789-1234",
+      "contact_email": "dataskydd@svenssonsbygg.se",
+      "address": {
+        "street": "Byggvägen 12",
+        "postal_code": "123 45",
+        "city": "Stockholm"
+      },
+      "cookies": [
+        {
+          "name": "session_id",
+          "type": "Nödvändig",
+          "description": "Används för att hantera din aktiva session på webbplatsen",
+          "duration": "Sessionscookie"
+        },
+        {
+          "name": "cookie_consent",
+          "type": "Nödvändig",
+          "description": "Sparar dina val gällande cookies på webbplatsen",
+          "duration": "1 år"
+        },
+        {
+          "name": "google_analytics",
+          "type": "Statistik",
+          "description": "Samlar anonymiserad statistik om besökare på webbplatsen",
+          "duration": "2 år"
+        }
+      ],
+      "forms": ["Kontaktformulär", "Offertförfrågan", "Jobbansökan"],
+      "google_maps": true,
+      "social_media": ["facebook", "instagram"],
+      "newsletter": true,
+      "payment_processors": ["Klarna", "Swish"]
+    },
+    {
+      "domain": "blomstergarden.se",
+      "company_name": "Blomstergården i Västerås AB",
+      "org_number": "556123-4567",
+      "contact_email": "info@blomstergarden.se",
+      "address": {
+        "street": "Trädgårdsvägen 8",
+        "postal_code": "722 33",
+        "city": "Västerås"
+      },
+      "cookies": [
+        {
+          "name": "shopping_cart",
+          "type": "Nödvändig",
+          "description": "Håller reda på produkter i din varukorg",
+          "duration": "30 dagar"
+        },
+        {
+          "name": "language",
+          "type": "Funktionell",
+          "description": "Sparar ditt val av språk på webbplatsen",
+          "duration": "1 år"
+        }
+      ],
+      "forms": ["Beställningsformulär", "Nyhetsbrev"],
+      "google_maps": true,
+      "social_media": ["instagram"],
+      "newsletter": true,
+      "payment_processors": ["Swish", "Kortbetalning"]
+    },
+    {
+      "domain": "konsultpartner.se",
+      "company_name": "Konsult & Partner Sverige AB",
+      "org_number": "556999-8888",
+      "contact_email": "gdpr@konsultpartner.se",
+      "address": {
+        "street": "Konsultgatan 45",
+        "postal_code": "411 03",
+        "city": "Göteborg"
+      },
+      "cookies": [
+        {
+          "name": "session_token",
+          "type": "Nödvändig",
+          "description": "Säkerställer säker inloggning i kundportalen",
+          "duration": "24 timmar"
+        },
+        {
+          "name": "linkedin_pixel",
+          "type": "Marknadsföring",
+          "description": "Spårar besök från LinkedIn-kampanjer",
+          "duration": "30 dagar"
+        },
+        {
+          "name": "hubspot",
+          "type": "Marknadsföring",
+          "description": "CRM-integration för lead tracking",
+          "duration": "6 månader"
+        },
+        {
+          "name": "preference_center",
+          "type": "Funktionell",
+          "description": "Sparar dina kommunikationspreferenser",
+          "duration": "1 år"
+        }
+      ],
+      "forms": [
+        "Kontaktformulär",
+        "Bokningsförfrågan",
+        "Nedladdning av Whitepaper",
+        "Prenumeration på Nyhetsbrev"
+      ],
+      "google_maps": false,
+      "social_media": ["linkedin", "twitter"],
+      "newsletter": true,
+      "payment_processors": ["Faktura"]
+    }
+  ]
+}
